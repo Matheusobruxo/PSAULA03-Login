@@ -34,11 +34,10 @@
             this.txtPass = new System.Windows.Forms.TextBox();
             this.btnConectar = new System.Windows.Forms.Button();
             this.panelSaldo = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblSaldo = new System.Windows.Forms.Label();
-            this.chkAumentar = new System.Windows.Forms.CheckBox();
-            this.txtAumentar = new System.Windows.Forms.TextBox();
             this.btnSalvar = new System.Windows.Forms.Button();
+            this.txtAumentar = new System.Windows.Forms.TextBox();
+            this.chkAumentar = new System.Windows.Forms.CheckBox();
+            this.lblSaldo = new System.Windows.Forms.Label();
             this.panelSaldo.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -101,7 +100,6 @@
             this.panelSaldo.Controls.Add(this.txtAumentar);
             this.panelSaldo.Controls.Add(this.chkAumentar);
             this.panelSaldo.Controls.Add(this.lblSaldo);
-            this.panelSaldo.Controls.Add(this.label1);
             this.panelSaldo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.panelSaldo.Location = new System.Drawing.Point(398, 18);
             this.panelSaldo.Name = "panelSaldo";
@@ -109,27 +107,26 @@
             this.panelSaldo.TabIndex = 5;
             this.panelSaldo.Visible = false;
             // 
-            // label1
+            // btnSalvar
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(16, 5);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(118, 23);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Seu saldo: R$";
+            this.btnSalvar.BackColor = System.Drawing.Color.LightCoral;
+            this.btnSalvar.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalvar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnSalvar.Location = new System.Drawing.Point(146, 64);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(106, 34);
+            this.btnSalvar.TabIndex = 6;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = false;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
-            // lblSaldo
+            // txtAumentar
             // 
-            this.lblSaldo.AutoSize = true;
-            this.lblSaldo.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSaldo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblSaldo.Location = new System.Drawing.Point(140, 5);
-            this.lblSaldo.Name = "lblSaldo";
-            this.lblSaldo.Size = new System.Drawing.Size(31, 23);
-            this.lblSaldo.TabIndex = 7;
-            this.lblSaldo.Text = "R$";
+            this.txtAumentar.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAumentar.Location = new System.Drawing.Point(20, 64);
+            this.txtAumentar.Name = "txtAumentar";
+            this.txtAumentar.Size = new System.Drawing.Size(120, 30);
+            this.txtAumentar.TabIndex = 6;
             // 
             // chkAumentar
             // 
@@ -143,33 +140,23 @@
             this.chkAumentar.Text = "Aumentar";
             this.chkAumentar.UseVisualStyleBackColor = true;
             // 
-            // txtAumentar
+            // lblSaldo
             // 
-            this.txtAumentar.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAumentar.Location = new System.Drawing.Point(20, 64);
-            this.txtAumentar.Name = "txtAumentar";
-            this.txtAumentar.PasswordChar = '*';
-            this.txtAumentar.Size = new System.Drawing.Size(120, 30);
-            this.txtAumentar.TabIndex = 6;
-            // 
-            // btnSalvar
-            // 
-            this.btnSalvar.BackColor = System.Drawing.Color.LightCoral;
-            this.btnSalvar.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnSalvar.Location = new System.Drawing.Point(146, 64);
-            this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(106, 34);
-            this.btnSalvar.TabIndex = 6;
-            this.btnSalvar.Text = "Salvar";
-            this.btnSalvar.UseVisualStyleBackColor = false;
+            this.lblSaldo.AutoSize = true;
+            this.lblSaldo.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSaldo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblSaldo.Location = new System.Drawing.Point(16, 5);
+            this.lblSaldo.Name = "lblSaldo";
+            this.lblSaldo.Size = new System.Drawing.Size(118, 23);
+            this.lblSaldo.TabIndex = 6;
+            this.lblSaldo.Text = "Seu saldo: R$";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RosyBrown;
-            this.ClientSize = new System.Drawing.Size(710, 237);
+            this.ClientSize = new System.Drawing.Size(712, 252);
             this.Controls.Add(this.panelSaldo);
             this.Controls.Add(this.btnConectar);
             this.Controls.Add(this.txtPass);
@@ -177,6 +164,7 @@
             this.Controls.Add(this.lblLogin);
             this.Controls.Add(this.lblUser);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Login ";
             this.panelSaldo.ResumeLayout(false);
             this.panelSaldo.PerformLayout();
@@ -197,7 +185,6 @@
         private System.Windows.Forms.TextBox txtAumentar;
         private System.Windows.Forms.CheckBox chkAumentar;
         private System.Windows.Forms.Label lblSaldo;
-        private System.Windows.Forms.Label label1;
     }
 }
 

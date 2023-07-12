@@ -9,3 +9,14 @@ C:\Users\matheus.hsilva76\source\repos\PSAula03-Login\obj\Debug\PSAula03-Login.c
 C:\Users\matheus.hsilva76\source\repos\PSAula03-Login\obj\Debug\PSAula03-Login.csproj.CoreCompileInputs.cache
 C:\Users\matheus.hsilva76\source\repos\PSAula03-Login\obj\Debug\PSAula03-Login.exe
 C:\Users\matheus.hsilva76\source\repos\PSAula03-Login\obj\Debug\PSAula03-Login.pdb
+C:\Users\DELL\Source\Repos\Matheusobruxo\PSAULA03-Login\bin\Debug\PSAula03-Login.exe.config
+C:\Users\DELL\Source\Repos\Matheusobruxo\PSAULA03-Login\bin\Debug\PSAula03-Login.exe
+C:\Users\DELL\Source\Repos\Matheusobruxo\PSAULA03-Login\bin\Debug\PSAula03-Login.pdb
+C:\Users\DELL\Source\Repos\Matheusobruxo\PSAULA03-Login\obj\Debug\PSAula03-Login.csproj.AssemblyReference.cache
+C:\Users\DELL\Source\Repos\Matheusobruxo\PSAULA03-Login\obj\Debug\PSAula03-Login.csproj.SuggestedBindingRedirects.cache
+C:\Users\DELL\Source\Repos\Matheusobruxo\PSAULA03-Login\obj\Debug\PSAula03_Login.Form1.resources
+C:\Users\DELL\Source\Repos\Matheusobruxo\PSAULA03-Login\obj\Debug\PSAula03_Login.Properties.Resources.resources
+C:\Users\DELL\Source\Repos\Matheusobruxo\PSAULA03-Login\obj\Debug\PSAula03-Login.csproj.GenerateResource.cache
+C:\Users\DELL\Source\Repos\Matheusobruxo\PSAULA03-Login\obj\Debug\PSAula03-Login.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Source\Repos\Matheusobruxo\PSAULA03-Login\obj\Debug\PSAula03-Login.exe
+C:\Users\DELL\Source\Repos\Matheusobruxo\PSAULA03-Login\obj\Debug\PSAula03-Login.pdb
